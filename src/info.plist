@@ -74,7 +74,8 @@
 				<key>escaping</key>
 				<integer>4</integer>
 				<key>script</key>
-				<string>ruby expand_url.rb "{query}" 2&gt;&amp;1 | tee debug.log</string>
+				<string>#ruby expand_url.rb "{query}" 2&gt;&amp;1 | tee debug.log
+ruby expand_url.rb "{query}"</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
